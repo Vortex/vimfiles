@@ -26,3 +26,6 @@ map <leader>gs :CommandT public/stylesheets/sass<cr>
 map <leader>gf :CommandT features<cr>
 map <leader>t :CommandT<cr>
 map <leader>T :CommandT %%<cr>
+
+" NERD tree toggle
+silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
