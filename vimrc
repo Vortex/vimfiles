@@ -28,6 +28,9 @@ set hlsearch
 " Highlight search match as you type
 set incsearch
 
+" Git
+set statusline+=%{fugitive#statusline()}
+
 " Command-T
 let g:CommandTMaxHeight=5
 let g:CommandTMatchWindowAtTop=1
