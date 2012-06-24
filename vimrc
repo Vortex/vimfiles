@@ -10,6 +10,24 @@ filetype plugin indent on
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+" Set command line history limit
+set history=1000
+
+" Show the cursor position all the time
+set ruler
+
+" Show incomplete commands at the bottom
+set showcmd
+
+" Show current mode at the bottom
+set showmode
+
+" Highlight search matches
+set hlsearch
+
+" Highlight search match as you type
+set incsearch
+
 " Command-T
 let g:CommandTMaxHeight=5
 let g:CommandTMatchWindowAtTop=1
