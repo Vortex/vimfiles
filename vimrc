@@ -51,6 +51,9 @@ map <leader>T :CommandT %%<cr>
 " NERD tree toggle
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
 
+" Set font
+set guifont=Inconsolata\ 14
+
 " Set color scheme
 if has("gui_running")
   "tell the term has 256 colors
@@ -60,13 +63,13 @@ if has("gui_running")
   "set guifont=Monospace\ Bold\ 12
   "colorscheme desert
   "colorscheme railscasts
-  "colorscheme vividchalk
+  colorscheme vividchalk
   
   "solarized
-  syntax enable
+  "syntax enable
   "set background=light
-  set background=dark
-  colorscheme solarized
+  "set background=dark
+  "colorscheme solarized
 else
   "dont load csapprox if there is no gui support - silences an annoying warning
   "let g:CSApprox_loaded = 1
