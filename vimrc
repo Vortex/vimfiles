@@ -28,6 +28,11 @@ set hlsearch
 " Highlight search match as you type
 set incsearch
 
+# Line numbers
+set number      " add line numbers
+set showbreak=...
+set wrap linebreak nolist
+
 " Git
 set statusline+=%{fugitive#statusline()}
 
