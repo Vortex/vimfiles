@@ -43,6 +43,30 @@ set visualbell t_vb=
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
+" Status line setup (tail of the filename)
+set statusline=%f
+set statusline+=%=      "left/right separator
+set statusline+=%c,     "cursor column
+set statusline+=%l/%L   "cursor line/total lines
+set statusline+=\ %P    "percent through file
+set laststatus=2
+
+" Indentation settings
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set autoindent
+
+" Folding settings
+" fold based on indent
+set foldmethod=indent
+
+" set deepest folding to 3 levels
+set foldnestmax=3
+
+" don't fold by default
+set nofoldenable 
+
 " Git
 set statusline+=%{fugitive#statusline()}
 
