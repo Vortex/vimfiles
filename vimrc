@@ -68,13 +68,13 @@ if has("gui_running")
   "set guifont=Monospace\ Bold\ 12
   "colorscheme desert
   "colorscheme railscasts
-  colorscheme vividchalk
+  "colorscheme vividchalk
   
   "solarized
-  "syntax enable
+  syntax enable
   "set background=light
-  "set background=dark
-  "colorscheme solarized
+  set background=dark
+  colorscheme solarized
 else
   "dont load csapprox if there is no gui support - silences an annoying warning
   "let g:CSApprox_loaded = 1
@@ -82,12 +82,12 @@ else
   set term=gnome-256color
   "colorscheme desert
   "colorscheme railscasts
-  "colorscheme vividchalk
+  colorscheme vividchalk
   "colorscheme grb256
   
   "solarized
   syntax enable
   "set background=light
-  set background=dark
-  colorscheme solarized
+  "set background=dark
+  "colorscheme solarized
 endif
