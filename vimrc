@@ -33,6 +33,16 @@ set number      " add line numbers
 set showbreak=...
 set wrap linebreak nolist
 
+" Add some linespace for easy reading
+set linespace=4
+
+" Disable visual bell
+set visualbell t_vb=
+
+" Store temporary files in a central spot
+set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+
 " Git
 set statusline+=%{fugitive#statusline()}
 
