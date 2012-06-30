@@ -90,6 +90,11 @@ map <leader>T :CommandT %%<cr>
 " NERD tree toggle
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
 
+" Ack
+" Use Ack instead of grep
+let g:ackprg="ack-grep -H --nocolor --nogroup --column"
+set grepprg=ack
+
 " Set font
 set guifont=Inconsolata\ 14
 
