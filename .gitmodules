@@ -45,7 +45,10 @@
 	url = git://github.com/tpope/vim-bundler.git
 [submodule "bundle/vim-rvm"]
 	path = bundle/vim-rvm
-	url = https://github.com/tpope/vim-rvm
+	url = git://github.com/tpope/vim-rvm
 [submodule "snippets"]
 	path = snippets
 	url = git://github.com/akitaonrails/snipmate-snippets.git
+[submodule "bundle/vim-snipmate"]
+	path = bundle/vim-snipmate
+	url = git://github.com/akitaonrails/snipmate.vim
