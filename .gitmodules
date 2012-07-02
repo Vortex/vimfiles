@@ -49,6 +49,3 @@
 [submodule "snippets"]
 	path = snippets
 	url = git://github.com/akitaonrails/snipmate-snippets.git
-[submodule "bundle/snipmate"]
-	path = bundle/snipmate
-	url = git://github.com/msanders/snipmate.vim.git
